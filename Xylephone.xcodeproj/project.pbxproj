@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E261EA8D205611F50049DFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EA8C205611F50049DFFA /* AppDelegate.swift */; };
+		E261EA8F205611F50049DFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EA8E205611F50049DFFA /* ViewController.swift */; };
+		E261EA92205611F50049DFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E261EA90205611F50049DFFA /* Main.storyboard */; };
+		E261EA94205611F50049DFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E261EA93205611F50049DFFA /* Assets.xcassets */; };
+		E261EA97205611F50049DFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E261EA95205611F50049DFFA /* LaunchScreen.storyboard */; };
+		E261EAA2205611F50049DFFA /* XylephoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EAA1205611F50049DFFA /* XylephoneTests.swift */; };
+		E261EAAD205611F50049DFFA /* XylephoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EAAC205611F50049DFFA /* XylephoneUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E261EA9E205611F50049DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E261EA81205611F50049DFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E261EA88205611F50049DFFA;
+			remoteInfo = Xylephone;
+		};
+		E261EAA9205611F50049DFFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E261EA81205611F50049DFFA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E261EA88205611F50049DFFA;
+			remoteInfo = Xylephone;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E261EA89205611F50049DFFA /* Xylephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E261EA8C205611F50049DFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E261EA8E205611F50049DFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		E261EA91205611F50049DFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E261EA93205611F50049DFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E261EA96205611F50049DFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E261EA98205611F50049DFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261EA9D205611F50049DFFA /* XylephoneTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylephoneTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E261EAA1205611F50049DFFA /* XylephoneTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylephoneTests.swift; sourceTree = "<group>"; };
+		E261EAA3205611F50049DFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261EAA8205611F50049DFFA /* XylephoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylephoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E261EAAC205611F50049DFFA /* XylephoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylephoneUITests.swift; sourceTree = "<group>"; };
+		E261EAAE205611F50049DFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E261EA86205611F50049DFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EA9A205611F50049DFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EAA5205611F50049DFFA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E261EA80205611F50049DFFA = {
+			isa = PBXGroup;
+			children = (
+				E261EA8B205611F50049DFFA /* Xylephone */,
+				E261EAA0205611F50049DFFA /* XylephoneTests */,
+				E261EAAB205611F50049DFFA /* XylephoneUITests */,
+				E261EA8A205611F50049DFFA /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E261EA8A205611F50049DFFA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E261EA89205611F50049DFFA /* Xylephone.app */,
+				E261EA9D205611F50049DFFA /* XylephoneTests.xctest */,
+				E261EAA8205611F50049DFFA /* XylephoneUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E261EA8B205611F50049DFFA /* Xylephone */ = {
+			isa = PBXGroup;
+			children = (
+				E261EA8C205611F50049DFFA /* AppDelegate.swift */,
+				E261EA8E205611F50049DFFA /* ViewController.swift */,
+				E261EA90205611F50049DFFA /* Main.storyboard */,
+				E261EA93205611F50049DFFA /* Assets.xcassets */,
+				E261EA95205611F50049DFFA /* LaunchScreen.storyboard */,
+				E261EA98205611F50049DFFA /* Info.plist */,
+			);
+			path = Xylephone;
+			sourceTree = "<group>";
+		};
+		E261EAA0205611F50049DFFA /* XylephoneTests */ = {
+			isa = PBXGroup;
+			children = (
+				E261EAA1205611F50049DFFA /* XylephoneTests.swift */,
+				E261EAA3205611F50049DFFA /* Info.plist */,
+			);
+			path = XylephoneTests;
+			sourceTree = "<group>";
+		};
+		E261EAAB205611F50049DFFA /* XylephoneUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E261EAAC205611F50049DFFA /* XylephoneUITests.swift */,
+				E261EAAE205611F50049DFFA /* Info.plist */,
+			);
+			path = XylephoneUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E261EA88205611F50049DFFA /* Xylephone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E261EAB1205611F50049DFFA /* Build configuration list for PBXNativeTarget "Xylephone" */;
+			buildPhases = (
+				E261EA85205611F50049DFFA /* Sources */,
+				E261EA86205611F50049DFFA /* Frameworks */,
+				E261EA87205611F50049DFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Xylephone;
+			productName = Xylephone;
+			productReference = E261EA89205611F50049DFFA /* Xylephone.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E261EA9C205611F50049DFFA /* XylephoneTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E261EAB4205611F50049DFFA /* Build configuration list for PBXNativeTarget "XylephoneTests" */;
+			buildPhases = (
+				E261EA99205611F50049DFFA /* Sources */,
+				E261EA9A205611F50049DFFA /* Frameworks */,
+				E261EA9B205611F50049DFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E261EA9F205611F50049DFFA /* PBXTargetDependency */,
+			);
+			name = XylephoneTests;
+			productName = XylephoneTests;
+			productReference = E261EA9D205611F50049DFFA /* XylephoneTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E261EAA7205611F50049DFFA /* XylephoneUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E261EAB7205611F50049DFFA /* Build configuration list for PBXNativeTarget "XylephoneUITests" */;
+			buildPhases = (
+				E261EAA4205611F50049DFFA /* Sources */,
+				E261EAA5205611F50049DFFA /* Frameworks */,
+				E261EAA6205611F50049DFFA /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E261EAAA205611F50049DFFA /* PBXTargetDependency */,
+			);
+			name = XylephoneUITests;
+			productName = XylephoneUITests;
+			productReference = E261EAA8205611F50049DFFA /* XylephoneUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E261EA81205611F50049DFFA /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = Ahmed;
+				TargetAttributes = {
+					E261EA88205611F50049DFFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					E261EA9C205611F50049DFFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E261EA88205611F50049DFFA;
+					};
+					E261EAA7205611F50049DFFA = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = E261EA88205611F50049DFFA;
+					};
+				};
+			};
+			buildConfigurationList = E261EA84205611F50049DFFA /* Build configuration list for PBXProject "Xylephone" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E261EA80205611F50049DFFA;
+			productRefGroup = E261EA8A205611F50049DFFA /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E261EA88205611F50049DFFA /* Xylephone */,
+				E261EA9C205611F50049DFFA /* XylephoneTests */,
+				E261EAA7205611F50049DFFA /* XylephoneUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E261EA87205611F50049DFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E261EA97205611F50049DFFA /* LaunchScreen.storyboard in Resources */,
+				E261EA94205611F50049DFFA /* Assets.xcassets in Resources */,
+				E261EA92205611F50049DFFA /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EA9B205611F50049DFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EAA6205611F50049DFFA /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E261EA85205611F50049DFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E261EA8F205611F50049DFFA /* ViewController.swift in Sources */,
+				E261EA8D205611F50049DFFA /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EA99205611F50049DFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E261EAA2205611F50049DFFA /* XylephoneTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E261EAA4205611F50049DFFA /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E261EAAD205611F50049DFFA /* XylephoneUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E261EA9F205611F50049DFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E261EA88205611F50049DFFA /* Xylephone */;
+			targetProxy = E261EA9E205611F50049DFFA /* PBXContainerItemProxy */;
+		};
+		E261EAAA205611F50049DFFA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E261EA88205611F50049DFFA /* Xylephone */;
+			targetProxy = E261EAA9205611F50049DFFA /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E261EA90205611F50049DFFA /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E261EA91205611F50049DFFA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		E261EA95205611F50049DFFA /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E261EA96205611F50049DFFA /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E261EAAF205611F50049DFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E261EAB0205611F50049DFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E261EAB2205611F50049DFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Xylephone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.Xylephone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E261EAB3205611F50049DFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = Xylephone/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.Xylephone;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E261EAB5205611F50049DFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XylephoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.XylephoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xylephone.app/Xylephone";
+			};
+			name = Debug;
+		};
+		E261EAB6205611F50049DFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XylephoneTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.XylephoneTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Xylephone.app/Xylephone";
+			};
+			name = Release;
+		};
+		E261EAB8205611F50049DFFA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XylephoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.XylephoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xylephone;
+			};
+			name = Debug;
+		};
+		E261EAB9205611F50049DFFA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = XylephoneUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = hmada.XylephoneUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Xylephone;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E261EA84205611F50049DFFA /* Build configuration list for PBXProject "Xylephone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261EAAF205611F50049DFFA /* Debug */,
+				E261EAB0205611F50049DFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E261EAB1205611F50049DFFA /* Build configuration list for PBXNativeTarget "Xylephone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261EAB2205611F50049DFFA /* Debug */,
+				E261EAB3205611F50049DFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E261EAB4205611F50049DFFA /* Build configuration list for PBXNativeTarget "XylephoneTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261EAB5205611F50049DFFA /* Debug */,
+				E261EAB6205611F50049DFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E261EAB7205611F50049DFFA /* Build configuration list for PBXNativeTarget "XylephoneUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E261EAB8205611F50049DFFA /* Debug */,
+				E261EAB9205611F50049DFFA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E261EA81205611F50049DFFA /* Project object */;
+}
