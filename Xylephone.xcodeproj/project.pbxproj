@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		E261EA8D205611F50049DFFA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EA8C205611F50049DFFA /* AppDelegate.swift */; };
-		E261EA8F205611F50049DFFA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EA8E205611F50049DFFA /* ViewController.swift */; };
 		E261EA92205611F50049DFFA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E261EA90205611F50049DFFA /* Main.storyboard */; };
 		E261EA94205611F50049DFFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E261EA93205611F50049DFFA /* Assets.xcassets */; };
 		E261EA97205611F50049DFFA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E261EA95205611F50049DFFA /* LaunchScreen.storyboard */; };
 		E261EAA2205611F50049DFFA /* XylephoneTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EAA1205611F50049DFFA /* XylephoneTests.swift */; };
 		E261EAAD205611F50049DFFA /* XylephoneUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EAAC205611F50049DFFA /* XylephoneUITests.swift */; };
+		E261EADA20561B3C0049DFFA /* Xyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = E261EAD920561B3C0049DFFA /* Xyle.swift */; };
+		E261EAE220561C210049DFFA /* note3.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EADB20561C200049DFFA /* note3.wav */; };
+		E261EAE320561C210049DFFA /* note7.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EADC20561C200049DFFA /* note7.wav */; };
+		E261EAE420561C210049DFFA /* note4.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EADD20561C200049DFFA /* note4.wav */; };
+		E261EAE520561C210049DFFA /* note1.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EADE20561C200049DFFA /* note1.wav */; };
+		E261EAE620561C210049DFFA /* note5.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EADF20561C200049DFFA /* note5.wav */; };
+		E261EAE720561C210049DFFA /* note2.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EAE020561C210049DFFA /* note2.wav */; };
+		E261EAE820561C210049DFFA /* note6.wav in Resources */ = {isa = PBXBuildFile; fileRef = E261EAE120561C210049DFFA /* note6.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		E261EA89205611F50049DFFA /* Xylephone.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Xylephone.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E261EA8C205611F50049DFFA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E261EA8E205611F50049DFFA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E261EA91205611F50049DFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E261EA93205611F50049DFFA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E261EA96205611F50049DFFA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +53,14 @@
 		E261EAA8205611F50049DFFA /* XylephoneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = XylephoneUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E261EAAC205611F50049DFFA /* XylephoneUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XylephoneUITests.swift; sourceTree = "<group>"; };
 		E261EAAE205611F50049DFFA /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E261EAD920561B3C0049DFFA /* Xyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Xyle.swift; sourceTree = "<group>"; };
+		E261EADB20561C200049DFFA /* note3.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note3.wav; sourceTree = "<group>"; };
+		E261EADC20561C200049DFFA /* note7.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note7.wav; sourceTree = "<group>"; };
+		E261EADD20561C200049DFFA /* note4.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note4.wav; sourceTree = "<group>"; };
+		E261EADE20561C200049DFFA /* note1.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note1.wav; sourceTree = "<group>"; };
+		E261EADF20561C200049DFFA /* note5.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note5.wav; sourceTree = "<group>"; };
+		E261EAE020561C210049DFFA /* note2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note2.wav; sourceTree = "<group>"; };
+		E261EAE120561C210049DFFA /* note6.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = note6.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +111,15 @@
 		E261EA8B205611F50049DFFA /* Xylephone */ = {
 			isa = PBXGroup;
 			children = (
+				E261EADE20561C200049DFFA /* note1.wav */,
+				E261EAE020561C210049DFFA /* note2.wav */,
+				E261EADB20561C200049DFFA /* note3.wav */,
+				E261EADD20561C200049DFFA /* note4.wav */,
+				E261EADF20561C200049DFFA /* note5.wav */,
+				E261EAE120561C210049DFFA /* note6.wav */,
+				E261EADC20561C200049DFFA /* note7.wav */,
 				E261EA8C205611F50049DFFA /* AppDelegate.swift */,
-				E261EA8E205611F50049DFFA /* ViewController.swift */,
+				E261EAD920561B3C0049DFFA /* Xyle.swift */,
 				E261EA90205611F50049DFFA /* Main.storyboard */,
 				E261EA93205611F50049DFFA /* Assets.xcassets */,
 				E261EA95205611F50049DFFA /* LaunchScreen.storyboard */,
@@ -232,8 +253,15 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E261EAE720561C210049DFFA /* note2.wav in Resources */,
+				E261EAE620561C210049DFFA /* note5.wav in Resources */,
 				E261EA97205611F50049DFFA /* LaunchScreen.storyboard in Resources */,
+				E261EAE820561C210049DFFA /* note6.wav in Resources */,
+				E261EAE320561C210049DFFA /* note7.wav in Resources */,
 				E261EA94205611F50049DFFA /* Assets.xcassets in Resources */,
+				E261EAE420561C210049DFFA /* note4.wav in Resources */,
+				E261EAE520561C210049DFFA /* note1.wav in Resources */,
+				E261EAE220561C210049DFFA /* note3.wav in Resources */,
 				E261EA92205611F50049DFFA /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -259,8 +287,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E261EA8F205611F50049DFFA /* ViewController.swift in Sources */,
 				E261EA8D205611F50049DFFA /* AppDelegate.swift in Sources */,
+				E261EADA20561B3C0049DFFA /* Xyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
